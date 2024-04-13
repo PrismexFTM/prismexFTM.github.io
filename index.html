@@ -15,7 +15,7 @@
 
         body {
             font-family: Arial, sans-serif;
-            background-color: #222; /* Mix of grey and black */
+            background-color: #333; /* Dark grey background */
             color: #fff; /* White text color */
         }
 
@@ -59,6 +59,32 @@
             text-align: center;
             margin-bottom: 50px; /* Added spacing below the explainer section */
         }
+
+        /* New section styles */
+        .content-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px; /* Added spacing below the content section */
+        }
+
+        .content-section img {
+            max-width: 40%; /* Adjust image width as needed */
+            margin-right: 20px;
+        }
+
+        .content-section p {
+            flex: 1;
+            text-align: justify;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
     </style>
 </head>
 <body>
@@ -79,11 +105,18 @@
         <h2>Welcome to Prismex</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam velit nec urna ullamcorper, at mollis elit vulputate. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus non risus et urna pharetra ullamcorper. Nam euismod eleifend fermentum.</p>
     </section>
-    <!-- Your main content here -->
+
+    <!-- New section -->
+    <section class="content-section">
+        <img src="prismextoken.png" alt="Prismex Token">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut magna sagittis, volutpat diam non, euismod eros. Donec sit amet justo nec lorem venenatis suscipit eu sed mi. Aliquam erat volutpat. Morbi non dolor vel felis ullamcorper tempor sed non ante. Sed pulvinar magna sed magna sollicitudin hendrerit. Nullam a est quis nunc rhoncus euismod. Fusce quis tellus non quam accumsan condimentum. Ut sed pulvinar odio. Morbi ultricies, risus id laoreet pharetra, lorem ex lobortis risus, non sodales eros dolor et lorem. Cras malesuada ex at lacus aliquet placerat.</p>
+    </section>
+    <!-- End of new section -->
+
 </main>
 
 <footer>
-    <!-- Your footer content here -->
+    Coming Soon to Fantom Sonic
 </footer>
 
 </body>
